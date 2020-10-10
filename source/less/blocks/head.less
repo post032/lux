@@ -1,0 +1,64 @@
+.head {
+  background: url("../img/onas.jpg") no-repeat;
+  background-size: 100%;
+  min-height: 614px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #700748;
+  position: relative;
+  z-index: 2;
+}
+
+.head-decoration {
+  position: relative;
+  z-index: 2;
+}
+
+.head-decoration::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: #700748;
+  position: absolute;
+  bottom: -10px;
+  z-index: 1;
+}
+
+.head-decoration::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: #7f1255;
+  transform: rotate(21deg) skew(30deg, 4deg);
+  right: -48px;
+  z-index: 1;
+  bottom: -45px;
+  position: absolute;
+}
+
+.head h1 {
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 200px;
+}
+
+.head p {
+  font-size: 57px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.head .button {
+  margin: 98px auto;
+  width: 160px;
+}
