@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru-Ru">
+  <head> 
+    <meta charset="UTF-8">
+    <title>lux</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="decorationTop"></div>
+      <div class="top">
+        <div class="wrap">
+          <div class="logo"><a href="/"><img src="img/logo.png" alt="Терраса Люкс"></a></div>
+          <div class="menu">
+            <ul>
+              <li><a href="/magazin/">Каталог</a></li>
+              <li><a href="/o-nas/">О Компании</a></li>
+              <li><a href="/skidki/">Акции</a></li>
+              <li><a href="/gallery/">Галерея</a></li>
+              <li><a href="/kontaktyi/">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="cart"><a href="/cart/"><img src="img/icons/cart.svg" alt="Корзина"><span class="count">0</span></a></div>
+          <div class="contacts"><a class="phone" href="tel:8-800-320-63-61">8 800 320-63-61</a><span class="caption">Бесплатный звонок по России</span></div>
+        </div>
+      </div>
+      <nav class="menu-inner">
+        <div class="wrap">
+          <div class="menu-inner__menu">
+            <ul class="fourColumns">
+              <li>
+                <div class="menu-inner__icon"><img src="img/icons/picnic.svg" alt="Мебель для сада"></div>
+                <div class="menu__info"><span class="menu-inner__title"><a href="#">Мебель<br> для сада</a></span><a class="menu-inner__link" href="#">Обеденные столы</a><a class="menu-inner__link" href="#">Диваны</a><a class="menu-inner__link" href="#">Лежаки</a><a class="menu-inner__link" href="#">Качели</a><a class="menu-inner__link" href="#">Беседки</a><a class="menu-inner__link" href="#">Зонты</a></div>
+              </li>
+              <li>
+                <div class="menu-inner__icon"><img src="img/icons/dining-table.svg" alt="Мебель для дома"></div>
+                <div class="menu__info"><span class="menu-inner__title"><a href="#">Мебель<br> для дома</a></span><a class="menu-inner__link" href="#">Для кухни</a><a class="menu-inner__link" href="#">Для гостиной</a><a class="menu-inner__link" href="#">Для детской</a><a class="menu-inner__link" href="#">Для ванной</a><a class="menu-inner__link" href="#">Для спальни</a></div>
+              </li>
+              <li>
+                <div class="menu-inner__icon"><img src="img/icons/light.svg" alt="люстры и освещение"></div>
+                <div class="menu__info"><span class="menu-inner__title"><a href="#">люстры<br> и освещение</a></span><a class="menu-inner__link" href="#">Люстры</a><a class="menu-inner__link" href="#">Светильники, бра</a><a class="menu-inner__link" href="#">Настольные лампы</a><a class="menu-inner__link" href="#">Вазы</a><a class="menu-inner__link" href="#">Предметы интерьера</a></div>
+              </li>
+              <li>
+                <div class="li__inner"> 
+                  <div class="menu-inner__icon"><img src="img/icons/tree.svg" alt="Светодиодные деревья"></div>
+                  <div class="menu__info"><span class="menu-inner__title"><a href="#">Светодиодные<br> деревья</a></span></div>
+                </div>
+                <div class="li__inner"> 
+                  <div class="menu-inner__icon"><img src="img/icons/deer.svg" alt="Новогодние товары"></div>
+                  <div class="menu__info"><span class="menu-inner__title"><a href="#">Новогодние<br> товары</a></span></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <section class="cart">
+          <div class="wrap">
+            <p class="subtitle">терраса люкс</p>
+            <h1 class="h2">Корзина</h1>
+            <table class="cart__table">
+              <tbody>
+                <tr class="cart__header">
+                  <th>Товар</th>
+                  <th>Цена</th>
+                  <th>Количество</th>
+                  <th>Итого</th>
+                </tr>
+                <tr class="cart__inner">
+                  <td><img src="img/cart1.jpg" alt="Фигура светодиодная «Олень»">
+                    <div class="cart__inner-name">
+                      <h2 class="title">Фигура светодиодная «Олень»</h2>
+                      <p class="sku">артикул: ZX019</p>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="new-price one-price">36 000 Р</p>
+                  </td>
+                  <td>
+                    <div class="count__td">
+                      <button class="count-control minus" type="button" aria-label="уменьшить количество">-</button>
+                      <input class="count" type="text" value="2" disabled>
+                      <button class="count-control plus" type="button" aria-label="увеличить количество">+</button>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="new-price total-price">72 000 Р</p>
+                  </td>
+                </tr>
+                <tr class="cart__inner">
+                  <td><img src="img/cart1.jpg" alt="Дерево светодиодное 1,5 м">
+                    <div class="cart__inner-name">
+                      <h2 class="title">Дерево светодиодное 1,5 м</h2>
+                      <p class="sku">артикул: ZX019</p>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="old-price">38 000 Р</p>
+                    <p class="new-price one-price">36 000 Р</p>
+                  </td>
+                  <td>
+                    <div class="count__td">
+                      <button class="count-control minus" type="button" aria-label="уменьшить количество">-</button>
+                      <input class="count" type="text" value="1" disabled>
+                      <button class="count-control plus" type="button" aria-label="увеличить количество">+</button>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="new-price total-price">36 000 Р</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="cart__footer">
+              <p class="cart__footer-total">Итого <span>108 000 Р</span></p><a class="cart__footer-order button-empty" href="#">Оформить заказ</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <div class="footer">
+        <div class="decoration"><img src="img/deco-footer.svg" alt="Декоративный элемент"></div>
+        <div class="wrap">
+          <div class="menu">
+            <ul class="fourColumns">
+              <li><span class="title"><a href="#">Мебель для сада</a></span><a href="#">Обеденные столы</a><a href="#">Диваны</a><a href="#">Лежаки</a><a href="#">Качели</a><a href="#">Беседки</a><a href="#">Зонты</a></li>
+              <li><span class="title"><a href="#">Мебель для дома</a></span><a href="#">Для кухни</a><a href="#">Для гостиной</a><a href="#">Для детской</a><a href="#">Для ванной</a><a href="#">Для спальни</a></li>
+              <li><span class="title"> <a href="#">люстры и освещение</a></span><a href="#">Люстры</a><a href="#">Светильники, бра</a><a href="#">Настольные лампы</a><a href="#">Вазы</a><a href="#">Предметы интерьера</a></li>
+              <li><span class="title"><a href="#">Светодиодные деревья</a></span><a href="#">Деревья</a><a href="#">Цветы</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="secondPart">
+          <div class="wrap">
+            <ul class="threeColumns">
+              <li><span class="title">ШОУРУМ</span>
+                <p>197110, Россия, г. Санкт-Петербург,<br>Новоприозерское шоссе,<br>8-й км, поселок Медовое (съезд у заправки НЕСТЕ)<br>Режим работы: ежедневно с 11.00 до 20.00</p></p>
+              </li>
+              <li><span class="title">ОФИС</span>
+                <p>197110, Россия, г. Санкт-Петербург,<br>наб. Мартынова, д. 6 (м. Крестовский остров)</p>
+              </li>
+              <li><span class="title">Телефоны</span>
+                <p><a href="tel:+7-812-320-63-61">+7 (812) 320-63-61<br></a><a href="tel:+7-921-867-91-30">+7 (921) 867-91-30</a></p>
+                <p><a class="underline" href="mailto:tl@terrasa.lux">tl@terrasa.lux</a></p>
+              </li>
+            </ul>
+            <div class="copyrights">
+              <p>Внимание. Данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не может считаться публичной офертой, которая определяется положениями Статьи 437 (2) Гражданского кодекса РФ.</p</p>
+              <p>Все права защищены © 2005–2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cart-popup__bg">
+      <section class="cart-popup">
+        <div class="wrap">
+          <button class="close" type="button"></button>
+          <p class="subtitle">терраса люкс</p>
+          <h1 class="h2">Оформить заказ</h1>
+          <form method="post" action="#">
+            <label class="visually-hidden" for="name">Ваше ФИО</label>
+            <input id="name" type="text" name="name" placeholder="Ваше ФИО" required>
+            <label class="visually-hidden" for="tel">телефон</label>
+            <input id="tel" type="tel" placeholder="+7 (911) 714-99-55" name="phone" required>
+            <input class="ok-input" id="ok" type="checkbox">
+            <label class="ok" for="ok">Я даю свое согласие на обработку своих персональных данных</label>
+            <button class="button-empty" type="submit">Оформить</button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/count.js"></script>
+  </body>
+</html>
