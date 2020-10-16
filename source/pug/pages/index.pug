@@ -9,7 +9,10 @@ html(lang="ru-Ru")
   body
     div.wrapper
       include ../sections/top
+      include ../sections/menu
       main
-        include ../sections/full-catalog
-        include ../sections/home
+        include ../sections/cart
       include ../sections/footer
+    include ../sections/cart-popup
+    script(src="js/script.js")
+    script(src="js/count.js")

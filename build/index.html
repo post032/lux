@@ -26,36 +26,99 @@
           <div class="contacts"><a class="phone" href="tel:8-800-320-63-61">8 800 320-63-61</a><span class="caption">Бесплатный звонок по России</span></div>
         </div>
       </div>
-      <main>
-        <section class="catalog">
-          <div class="wrap">
-            <p class="subtitle">терраса люкс</p>
-            <h1 class="h2">Каталог</h1>
-            <section class="full-catalogs">
-              <div class="full-catalog full-catalog__big" style="background-image: url('../img/banner1.jpg')"><a class="full-catalog__link" href="">
-                  <h2 class="title">МЕБЕЛЬ ДЛЯ САДА</h2></a></div>
-              <div class="full-catalog full-catalog__big" style="background-image: url('../img/banner2.jpg')"><a class="full-catalog__link" href="">
-                  <h2 class="title">МЕБЕЛЬ ДЛЯ дома</h2></a></div>
-              <div class="full-catalog" style="background-image: url('../img/banner3.jpg')"><a class="full-catalog__link" href="">
-                  <h2 class="title">Люстры и освещение</h2></a></div>
-              <div class="full-catalog" style="background-image: url('../img/banner4.jpg')"><a class="full-catalog__link" href="">
-                  <h2 class="title">Светодиодные деревья</h2></a></div>
-              <div class="full-catalog" style="background-image: url('../img/banner5.jpg')"><a class="full-catalog__link" href="">
-                  <h2 class="title">Новогодние товары</h2></a></div>
-            </section>
-          </div>
-        </section>
-        <div class="content bggray">
-          <div class="wrap">
-            <div class="main">
-              <div class="subtitle">О компании</div>
-              <h1 class="h2">Терраса люкс</h1>
-              <p>Дом — это отражение души хозяина. Каждый человек стремится вложить в свой дом самое лучшее. В свете огромного выбора, зачастую бывает сложно найти лучшее. А разве хочется довольствоваться меньшим?</p>
-              <p>«Терраса-люкс» — это уникальный проект по подбору всего самого лучшего для дома Вашей мечты. Мы поможем создать неповторимый дизайн Вашего дома и сада. Наша компания предлагает огромный ассортимент мебели, аксессуаров, товаров для оформления сада и дома (новогодние товары, светодиодные деревья). Все товары представлены в наличии в нашем шоуруме. Наша компания сотрудничает с мировыми производителями мебели напрямую, благодаря этому мы можем предложить Вам приобрести эксклюзивные модели по оптовым ценам.</p>
-            </div>
-            <div class="side"><img src="img/content.chair.jpg" alt="Кресло качалка подвесное"></div>
+      <nav class="menu-inner">
+        <div class="wrap">
+          <div class="menu-inner__menu">
+            <ul class="fourColumns">
+              <li>
+                <div class="menu-inner__icon"><img src="img/icons/picnic.svg" alt="Мебель для сада"></div>
+                <div class="menu__info"><span class="menu-inner__title"><a href="#">Мебель<br> для сада</a></span><a class="menu-inner__link" href="#">Обеденные столы</a><a class="menu-inner__link" href="#">Диваны</a><a class="menu-inner__link" href="#">Лежаки</a><a class="menu-inner__link" href="#">Качели</a><a class="menu-inner__link" href="#">Беседки</a><a class="menu-inner__link" href="#">Зонты</a></div>
+              </li>
+              <li>
+                <div class="menu-inner__icon"><img src="img/icons/dining-table.svg" alt="Мебель для дома"></div>
+                <div class="menu__info"><span class="menu-inner__title"><a href="#">Мебель<br> для дома</a></span><a class="menu-inner__link" href="#">Для кухни</a><a class="menu-inner__link" href="#">Для гостиной</a><a class="menu-inner__link" href="#">Для детской</a><a class="menu-inner__link" href="#">Для ванной</a><a class="menu-inner__link" href="#">Для спальни</a></div>
+              </li>
+              <li>
+                <div class="menu-inner__icon"><img src="img/icons/light.svg" alt="люстры и освещение"></div>
+                <div class="menu__info"><span class="menu-inner__title"><a href="#">люстры<br> и освещение</a></span><a class="menu-inner__link" href="#">Люстры</a><a class="menu-inner__link" href="#">Светильники, бра</a><a class="menu-inner__link" href="#">Настольные лампы</a><a class="menu-inner__link" href="#">Вазы</a><a class="menu-inner__link" href="#">Предметы интерьера</a></div>
+              </li>
+              <li>
+                <div class="li__inner"> 
+                  <div class="menu-inner__icon"><img src="img/icons/tree.svg" alt="Светодиодные деревья"></div>
+                  <div class="menu__info"><span class="menu-inner__title"><a href="#">Светодиодные<br> деревья</a></span></div>
+                </div>
+                <div class="li__inner"> 
+                  <div class="menu-inner__icon"><img src="img/icons/deer.svg" alt="Новогодние товары"></div>
+                  <div class="menu__info"><span class="menu-inner__title"><a href="#">Новогодние<br> товары</a></span></div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
+      </nav>
+      <main>
+        <section class="cart">
+          <div class="wrap">
+            <p class="subtitle">терраса люкс</p>
+            <h1 class="h2">Корзина</h1>
+            <table class="cart__table">
+              <tbody>
+                <tr class="cart__header">
+                  <th>Товар</th>
+                  <th>Цена</th>
+                  <th>Количество</th>
+                  <th>Итого</th>
+                </tr>
+                <tr class="cart__inner">
+                  <td><img src="img/cart1.jpg" alt="Фигура светодиодная «Олень»">
+                    <div class="cart__inner-name">
+                      <h2 class="title">Фигура светодиодная «Олень»</h2>
+                      <p class="sku">артикул: ZX019</p>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="new-price one-price">36 000 Р</p>
+                  </td>
+                  <td>
+                    <div class="count__td">
+                      <button class="count-control minus" type="button" aria-label="уменьшить количество">-</button>
+                      <input class="count" type="text" value="2" disabled>
+                      <button class="count-control plus" type="button" aria-label="увеличить количество">+</button>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="new-price total-price">72 000 Р</p>
+                  </td>
+                </tr>
+                <tr class="cart__inner">
+                  <td><img src="img/cart1.jpg" alt="Дерево светодиодное 1,5 м">
+                    <div class="cart__inner-name">
+                      <h2 class="title">Дерево светодиодное 1,5 м</h2>
+                      <p class="sku">артикул: ZX019</p>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="old-price">38 000 Р</p>
+                    <p class="new-price one-price">36 000 Р</p>
+                  </td>
+                  <td>
+                    <div class="count__td">
+                      <button class="count-control minus" type="button" aria-label="уменьшить количество">-</button>
+                      <input class="count" type="text" value="1" disabled>
+                      <button class="count-control plus" type="button" aria-label="увеличить количество">+</button>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="new-price total-price">36 000 Р</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="cart__footer">
+              <p class="cart__footer-total">Итого <span>108 000 Р</span></p><a class="cart__footer-order button-empty" href="#">Оформить заказ</a>
+            </div>
+          </div>
+        </section>
       </main>
       <div class="footer">
         <div class="decoration"><img src="img/deco-footer.svg" alt="Декоративный элемент"></div>
@@ -91,5 +154,25 @@
         </div>
       </div>
     </div>
+    <div class="cart-popup__bg">
+      <section class="cart-popup">
+        <div class="wrap">
+          <button class="close" type="button"></button>
+          <p class="subtitle">терраса люкс</p>
+          <h1 class="h2">Оформить заказ</h1>
+          <form method="post" action="#">
+            <label class="visually-hidden" for="name">Ваше ФИО</label>
+            <input id="name" type="text" name="name" placeholder="Ваше ФИО" required>
+            <label class="visually-hidden" for="tel">телефон</label>
+            <input id="tel" type="tel" placeholder="+7 (911) 714-99-55" name="phone" required>
+            <input class="ok-input" id="ok" type="checkbox">
+            <label class="ok" for="ok">Я даю свое согласие на обработку своих персональных данных</label>
+            <button class="button-empty" type="submit">Оформить</button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/count.js"></script>
   </body>
 </html>

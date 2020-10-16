@@ -1,0 +1,47 @@
+section.cart
+  div.wrap
+    p.subtitle терраса люкс
+    h1.h2 Корзина
+    table.cart__table
+      tbody
+        tr.cart__header
+          th Товар
+          th Цена
+          th Количество
+          th Итого
+        tr.cart__inner
+          td
+            img(src="img/cart1.jpg" alt="Фигура светодиодная «Олень»")
+            div.cart__inner-name
+              h2.title Фигура светодиодная «Олень»
+              p.sku артикул: ZX019
+          td
+            p.new-price.one-price 36 000 Р
+          td
+            div.count__td
+              button(type="button" aria-label="уменьшить количество").count-control.minus -
+              input(type="text" value="2" disabled).count
+              button(type="button" aria-label="увеличить количество").count-control.plus +
+          td
+            p.new-price.total-price 72 000 Р
+        tr.cart__inner
+          td
+            img(src="img/cart1.jpg" alt="Дерево светодиодное 1,5 м")
+            div.cart__inner-name
+              h2.title Дерево светодиодное 1,5 м
+              p.sku артикул: ZX019
+          td
+            p.old-price 38 000 Р
+            p.new-price.one-price 36 000 Р
+          td
+            div.count__td
+              button(type="button" aria-label="уменьшить количество").count-control.minus -
+              input(type="text" value="1" disabled).count
+              button(type="button" aria-label="увеличить количество").count-control.plus +
+          td
+            p.new-price.total-price 36 000 Р
+    div.cart__footer
+      p.cart__footer-total Итого 
+        span 108 000 Р
+      a(href="#").cart__footer-order.button-empty Оформить заказ
+    

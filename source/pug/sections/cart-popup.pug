@@ -1,0 +1,14 @@
+div.cart-popup__bg
+  section.cart-popup
+    div.wrap
+      button(type="button").close
+      p.subtitle терраса люкс
+      h1.h2 Оформить заказ
+      form(method="post" action="#")
+        label(for="name").visually-hidden Ваше ФИО
+        input(id="name" type="text" name="name" placeholder="Ваше ФИО" required)
+        label(for="tel").visually-hidden телефон
+        input(id="tel" type="tel" placeholder="+7 (911) 714-99-55" name="phone" required) 
+        input(id="ok" type="checkbox").ok-input
+        label(for="ok").ok Я даю свое согласие на обработку своих персональных данных
+        button(type="submit").button-empty Оформить
