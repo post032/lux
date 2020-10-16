@@ -57,66 +57,11 @@
         </div>
       </nav>
       <main>
-        <section class="cart">
+        <section class="gallery">
           <div class="wrap">
             <p class="subtitle">терраса люкс</p>
             <h1 class="h2">Корзина</h1>
-            <table class="cart__table">
-              <tbody>
-                <tr class="cart__header">
-                  <th>Товар</th>
-                  <th>Цена</th>
-                  <th>Количество</th>
-                  <th>Итого</th>
-                </tr>
-                <tr class="cart__inner">
-                  <td><img src="img/cart1.jpg" alt="Фигура светодиодная «Олень»">
-                    <div class="cart__inner-name">
-                      <h2 class="title">Фигура светодиодная «Олень»</h2>
-                      <p class="sku">артикул: ZX019</p>
-                    </div>
-                  </td>
-                  <td>
-                    <p class="new-price one-price">36 000 Р</p>
-                  </td>
-                  <td>
-                    <div class="count__td">
-                      <button class="count-control minus" type="button" aria-label="уменьшить количество">-</button>
-                      <input class="count" type="text" value="2" disabled>
-                      <button class="count-control plus" type="button" aria-label="увеличить количество">+</button>
-                    </div>
-                  </td>
-                  <td>
-                    <p class="new-price total-price">72 000 Р</p>
-                  </td>
-                </tr>
-                <tr class="cart__inner">
-                  <td><img src="img/cart1.jpg" alt="Дерево светодиодное 1,5 м">
-                    <div class="cart__inner-name">
-                      <h2 class="title">Дерево светодиодное 1,5 м</h2>
-                      <p class="sku">артикул: ZX019</p>
-                    </div>
-                  </td>
-                  <td>
-                    <p class="old-price">38 000 Р</p>
-                    <p class="new-price one-price">36 000 Р</p>
-                  </td>
-                  <td>
-                    <div class="count__td">
-                      <button class="count-control minus" type="button" aria-label="уменьшить количество">-</button>
-                      <input class="count" type="text" value="1" disabled>
-                      <button class="count-control plus" type="button" aria-label="увеличить количество">+</button>
-                    </div>
-                  </td>
-                  <td>
-                    <p class="new-price total-price">36 000 Р</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <div class="cart__footer">
-              <p class="cart__footer-total">Итого <span>108 000 Р</span></p><a class="cart__footer-order button-empty" href="#">Оформить заказ</a>
-            </div>
+            <div class="gallery-fancy"><a data-fancybox="gallery" href="img/foto1.jpg"><img src="img/foto1.jpg"></a><a data-fancybox="gallery" href="img/foto2.jpg"><img src="img/foto2.jpg"></a><a data-fancybox="gallery" href="img/foto3.jpg"><img src="img/foto3.jpg"></a><a data-fancybox="gallery" href="img/foto1.jpg"><img src="img/foto1.jpg"></a><a data-fancybox="gallery" href="img/foto2.jpg"><img src="img/foto2.jpg"></a><a data-fancybox="gallery" href="img/foto3.jpg"><img src="img/foto3.jpg"></a><a data-fancybox="gallery" href="img/foto1.jpg"><img src="img/foto1.jpg"></a><a data-fancybox="gallery" href="img/foto2.jpg"><img src="img/foto2.jpg"></a><a data-fancybox="gallery" href="img/foto3.jpg"><img src="img/foto3.jpg"></a><a data-fancybox="gallery" href="img/foto1.jpg"><img src="img/foto1.jpg"></a><a data-fancybox="gallery" href="img/foto2.jpg"><img src="img/foto2.jpg"></a><a data-fancybox="gallery" href="img/foto3.jpg"><img src="img/foto3.jpg"></a><a data-fancybox="gallery" href="img/foto1.jpg"><img src="img/foto1.jpg"></a><a data-fancybox="gallery" href="img/foto2.jpg"><img src="img/foto2.jpg"></a><a data-fancybox="gallery" href="img/foto3.jpg"><img src="img/foto3.jpg"></a><a data-fancybox="gallery" href="img/foto1.jpg"><img src="img/foto1.jpg"></a></div>
           </div>
         </section>
       </main>
@@ -154,25 +99,8 @@
         </div>
       </div>
     </div>
-    <div class="cart-popup__bg">
-      <section class="cart-popup">
-        <div class="wrap">
-          <button class="close" type="button"></button>
-          <p class="subtitle">терраса люкс</p>
-          <h1 class="h2">Оформить заказ</h1>
-          <form method="post" action="#">
-            <label class="visually-hidden" for="name">Ваше ФИО</label>
-            <input id="name" type="text" name="name" placeholder="Ваше ФИО" required>
-            <label class="visually-hidden" for="tel">телефон</label>
-            <input id="tel" type="tel" placeholder="+7 (911) 714-99-55" name="phone" required>
-            <input class="ok-input" id="ok" type="checkbox">
-            <label class="ok" for="ok">Я даю свое согласие на обработку своих персональных данных</label>
-            <button class="button-empty" type="submit">Оформить</button>
-          </form>
-        </div>
-      </section>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/count.js"></script>
   </body>
 </html>
