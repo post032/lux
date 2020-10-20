@@ -5,9 +5,11 @@ div.top
       a(href="/")
         img(src="img/logo.png" alt="Терраса Люкс")
     div.menu
+      button(type="button" aria-label="меню").burger
       ul
         li
           a(href="/magazin/") Каталог
+          include ../sections/menu-min
         li
           a(href="/o-nas/") О Компании
         li
@@ -21,5 +23,7 @@ div.top
         img(src="img/icons/cart.svg" alt="Корзина")
         span.count 0
     div.contacts
+      button(type="button" aria-label="телефон").mobile-phone
+        img(src="img/icons/telephone.svg" alt="телефон")
       a(href="tel:8-800-320-63-61").phone 8 800 320-63-61
       span.caption Бесплатный звонок по России

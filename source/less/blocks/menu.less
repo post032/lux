@@ -70,3 +70,27 @@
     }
   }
 }
+
+.menu-min {
+  display: none;
+}
+@media (max-width: 960px) {
+  .menu-inner .menu-inner__menu .fourColumns {
+    li {
+      flex-direction: column;
+    }
+    .menu-inner__title a {
+      font-size: 14px;
+    }
+
+    .menu-inner__link {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-inner.active {
+    display: none;
+  }
+}

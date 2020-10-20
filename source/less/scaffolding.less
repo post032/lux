@@ -20,17 +20,8 @@ img {
   width: 100%;
   height: auto;
 }
-
-.container {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0 auto;
-  min-width: 320px;
-  position: relative;
-}
-
-@media (min-width: @size-tablet) {
-  .container {
+@media (max-width: 960px) {
+  .wrap {
     padding: 0;
     margin: 0 auto;
     width: 100%;
@@ -38,14 +29,15 @@ img {
   }
 }
 
-@media (min-width: @size-desktop) {
-  .container {
+@media (max-width: 768px) {
+  .wrap {
     padding: 0;
     margin: 0 auto;
-    max-width: 1920px;
+    width: 100%;
     position: relative;
   }
 }
+
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,

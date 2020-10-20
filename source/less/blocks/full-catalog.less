@@ -27,7 +27,7 @@
   min-width: 270px;
   max-width: 90%;
   min-height: 85px;
-  transform: skewX(40deg) translateX(-40px) translateY(15px);
+  transform: skewX(40deg) translateX(-55px) translateY(15px);
   .title {
     transform: skewX(-40deg) translateX(10px);
   }
@@ -46,5 +46,21 @@
   }
   .full-catalog__link {
     min-height: 126px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .full-catalog {
+    width: 48%;
+  }
+  .full-catalog__big {
+    width: 100%;
+  }
+}
+
+@media (max-width: 580px) {
+  .full-catalog {
+    width: 100%;
   }
 }

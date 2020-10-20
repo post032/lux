@@ -10,7 +10,6 @@
 
 .footer .decoration {
     position: absolute;
-    display: block;
     right: -160px;
     top: -125px;
     width: 400px;
@@ -152,4 +151,73 @@ ul.threeColumns li {
 
 ul.threeColumns li:nth-child(3n) {
     margin: 0 0 20px;
+}
+
+@media (max-width: 1240px) {
+
+}
+
+@media (max-width: 960px) {
+  .decoration {
+    display: none;
+  }
+
+  .footer .menu ul {
+    justify-content: space-between;
+  }
+
+  .footer .threeColumns {
+    display: flex;
+  }
+
+  .footer .menu ul li {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer .menu ul {
+    justify-content: space-between;
+  }
+
+  .footer .fourColumns {
+    flex-direction: column;
+  }
+
+  .footer .menu ul li {
+    width: 100%;
+  }
+
+  .footer .threeColumns {
+    flex-direction: column;
+  }
+
+  ul.threeColumns li {
+    width: 100%;
+  }
+
+  .footer .menu ul li a {
+    display: none;
+  }
+
+  .footer .menu ul li.show a {
+    display: block;
+  }
+
+  .footer .menu ul li .title a {
+    display: block;
+  }
+
+  .footer .menu ul li .title a::after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }

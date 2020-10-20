@@ -66,3 +66,33 @@
   background: url("../img/foto3.jpg") no-repeat;
   background-size: cover;
 }
+
+@media (max-width: 960px) {
+
+  .stocks .list {
+    width: 49.5%;
+    min-height: 310px;
+  }
+
+  .stocks .list:nth-child(3n) {
+    margin-right: 1%;
+  }
+
+  .stocks .list:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .stocks {
+    padding-top: 15px;
+    padding-bottom: 35px;
+  }
+}
+
+@media (max-width: 580px) {
+  .stocks .list {
+    width: 100%;
+    min-height: 350px;
+  }
+}

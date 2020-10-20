@@ -14,8 +14,31 @@
         <div class="wrap">
           <div class="logo"><a href="/"><img src="img/logo.png" alt="Терраса Люкс"></a></div>
           <div class="menu">
+            <button class="burger" type="button" aria-label="меню"></button>
             <ul>
-              <li><a href="/magazin/">Каталог</a></li>
+              <li><a href="/magazin/">Каталог</a>
+                <ul class="menu-min fourColumns">
+                  <li>
+                    <div class="menu__info"><span class="menu-inner__title"><a href="#">Мебель для сада</a></span><a class="menu-inner__link" href="#">Обеденные столы</a><a class="menu-inner__link" href="#">Диваны</a><a class="menu-inner__link" href="#">Лежаки</a><a class="menu-inner__link" href="#">Качели</a><a class="menu-inner__link" href="#">Беседки</a><a class="menu-inner__link" href="#">Зонты</a></div>
+                  </li>
+                  <li>
+                    <div class="menu__info"><span class="menu-inner__title"><a href="#">Мебель для дома</a></span><a class="menu-inner__link" href="#">Для кухни</a><a class="menu-inner__link" href="#">Для гостиной</a><a class="menu-inner__link" href="#">Для детской</a><a class="menu-inner__link" href="#">Для ванной</a><a class="menu-inner__link" href="#">Для спальни</a></div>
+                  </li>
+                  <li>
+                    <div class="menu__info"><span class="menu-inner__title"><a href="#">люстры и освещение</a></span><a class="menu-inner__link" href="#">Люстры</a><a class="menu-inner__link" href="#">Светильники, бра</a><a class="menu-inner__link" href="#">Настольные лампы</a><a class="menu-inner__link" href="#">Вазы</a><a class="menu-inner__link" href="#">Предметы интерьера</a></div>
+                  </li>
+                  <li>
+                    <div class="li__inner"> 
+                      <div class="menu__info"><span class="menu-inner__title"><a href="#">Светодиодные деревья</a></span></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="li__inner">
+                      <div class="menu__info"><span class="menu-inner__title"><a href="#">Новогодние товары</a></span></div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
               <li><a href="/o-nas/">О Компании</a></li>
               <li><a href="/skidki/">Акции</a></li>
               <li><a href="/gallery/">Галерея</a></li>
@@ -23,7 +46,9 @@
             </ul>
           </div>
           <div class="cart"><a href="/cart/"><img src="img/icons/cart.svg" alt="Корзина"><span class="count">0</span></a></div>
-          <div class="contacts"><a class="phone" href="tel:8-800-320-63-61">8 800 320-63-61</a><span class="caption">Бесплатный звонок по России</span></div>
+          <div class="contacts">
+            <button class="mobile-phone" type="button" aria-label="телефон"><img src="img/icons/telephone.svg" alt="телефон"></button><a class="phone" href="tel:8-800-320-63-61">8 800 320-63-61</a><span class="caption">Бесплатный звонок по России</span>
+          </div>
         </div>
       </div>
       <nav class="menu-inner">
@@ -148,8 +173,8 @@
                   <input type="text" name="name" placeholder="Введите ваш телефон">
                   <div class="submit">Отправить</div>
                   <div class="eula">
-                    <input type="checkbox" name="eula" id="eula1">
-                    <label for="eula1">Я даю свое согласие на обработку своих персональных данных</label>
+                    <input class="ok-input" type="checkbox" name="eula" id="eula1">
+                    <label class="ok" for="eula1">Я даю свое согласие на обработку своих персональных данных</label>
                   </div>
                 </form>
               </li>
